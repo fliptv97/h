@@ -1,0 +1,33 @@
+{
+  "name": "h",
+  "version": "1.0.0",
+  "description": "The `h` function is a utility for creating DOM elements in a declarative way using JavaScript objects and strings.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "husky install"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "lint-staged": {
+    "*.ts": "prettier --write"
+  },
+  "keywords": [
+    "DOM"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fliptv97/h.git"
+  },
+  "bugs": "https://github.com/fliptv97/h/issues",
+  "author": "Soul Journey",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
